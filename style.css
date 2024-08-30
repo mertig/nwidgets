@@ -17,8 +17,8 @@ button,
 button:active {
   background-color: rgb(234,179,199);
   border: none;
-  width: 42px;
-  height: 40px;
+  width: 20px;
+  height: 18px;
   border-radius: 100%;
   text-align: center;
   box-shadow: 0.2em 0.2em rgb(170, 108, 131);
@@ -37,7 +37,7 @@ button:focus {
 
 .clock-container {
   background-color: rgb(245, 222, 239); 
-  width: 350px;
+  width: 200px;
   border-radius: 20px;
   padding: 30px;
   box-shadow: 10px 10px rgb(245, 195, 233);
@@ -46,7 +46,7 @@ button:focus {
 /* Display + Stop/Start/Reset Controls */
 
 #time-left {
-  font-size: 70px;
+  font-size: 45px;
   text-align: center;
   background-color: rgb(241,237,245);
   padding: 20px;
@@ -63,12 +63,12 @@ button:focus {
 }
 
 #timer-label {
-  font-size: 25px;
+  font-size: 15px;
   text-align: center;
   padding-top: 2px;
   background-color: rgb(241,237,245);
   border-radius: 10px;
-  height: 40px;
+  height: 20px;
   flex: 2;
   box-shadow: 3px 3px rgb(40, 107, 143) inset;
 }
@@ -94,8 +94,8 @@ button:focus {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 140px;
-  height:60px;
+  width: 70px;
+  height:40px;
 }
 
 .break-container, 
